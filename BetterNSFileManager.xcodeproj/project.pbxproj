@@ -32,14 +32,14 @@
 		5BED0286151E409B002F6EE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5BED0287151E409B002F6EE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5BED0288151E409B002F6EE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5BED028B151E409B002F6EE5 /* BetterNSFileManager-Prefix.pch */ = {isa = PBXFileReference; path = "BetterNSFileManager-Prefix.pch"; sourceTree = "<group>"; };
-		5BED028C151E409B002F6EE5 /* BetterNSFileManager.h */ = {isa = PBXFileReference; path = BetterNSFileManager.h; sourceTree = "<group>"; };
+		5BED028B151E409B002F6EE5 /* BetterNSFileManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterNSFileManager-Prefix.pch"; sourceTree = "<group>"; };
+		5BED028C151E409B002F6EE5 /* BetterNSFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterNSFileManager.h; sourceTree = "<group>"; };
 		5BED028D151E409B002F6EE5 /* BetterNSFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterNSFileManager.m; sourceTree = "<group>"; };
 		5BED0294151E409B002F6EE5 /* BetterNSFileManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterNSFileManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED0295151E409B002F6EE5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5BED029D151E409B002F6EE5 /* BetterNSFileManagerTests-Info.plist */ = {isa = PBXFileReference; path = "BetterNSFileManagerTests-Info.plist"; sourceTree = "<group>"; };
+		5BED029D151E409B002F6EE5 /* BetterNSFileManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterNSFileManagerTests-Info.plist"; sourceTree = "<group>"; };
 		5BED029F151E409B002F6EE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5BED02A1151E409B002F6EE5 /* BetterNSFileManagerTests.h */ = {isa = PBXFileReference; path = BetterNSFileManagerTests.h; sourceTree = "<group>"; };
+		5BED02A1151E409B002F6EE5 /* BetterNSFileManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterNSFileManagerTests.h; sourceTree = "<group>"; };
 		5BED02A2151E409B002F6EE5 /* BetterNSFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterNSFileManagerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
