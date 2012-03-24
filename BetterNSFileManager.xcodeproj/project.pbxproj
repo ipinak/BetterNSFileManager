@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BED0284151E409B002F6EE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED0283151E409B002F6EE5 /* Cocoa.framework */; };
+		5BED028E151E409B002F6EE5 /* BetterNSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED028D151E409B002F6EE5 /* BetterNSFileManager.m */; };
+		5BED0296151E409B002F6EE5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED0295151E409B002F6EE5 /* SenTestingKit.framework */; };
+		5BED0297151E409B002F6EE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED0283151E409B002F6EE5 /* Cocoa.framework */; };
+		5BED029A151E409B002F6EE5 /* libBetterNSFileManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED0280151E409B002F6EE5 /* libBetterNSFileManager.a */; };
+		5BED02A0151E409B002F6EE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED029E151E409B002F6EE5 /* InfoPlist.strings */; };
+		5BED02A3151E409B002F6EE5 /* BetterNSFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED02A2151E409B002F6EE5 /* BetterNSFileManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BED0298151E409B002F6EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BED0277151E409B002F6EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BED027F151E409B002F6EE5;
+			remoteInfo = BetterNSFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BED0280151E409B002F6EE5 /* libBetterNSFileManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBetterNSFileManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED0283151E409B002F6EE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BED0286151E409B002F6EE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BED0287151E409B002F6EE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BED0288151E409B002F6EE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BED028B151E409B002F6EE5 /* BetterNSFileManager-Prefix.pch */ = {isa = PBXFileReference; path = "BetterNSFileManager-Prefix.pch"; sourceTree = "<group>"; };
+		5BED028C151E409B002F6EE5 /* BetterNSFileManager.h */ = {isa = PBXFileReference; path = BetterNSFileManager.h; sourceTree = "<group>"; };
+		5BED028D151E409B002F6EE5 /* BetterNSFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterNSFileManager.m; sourceTree = "<group>"; };
+		5BED0294151E409B002F6EE5 /* BetterNSFileManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterNSFileManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED0295151E409B002F6EE5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BED029D151E409B002F6EE5 /* BetterNSFileManagerTests-Info.plist */ = {isa = PBXFileReference; path = "BetterNSFileManagerTests-Info.plist"; sourceTree = "<group>"; };
+		5BED029F151E409B002F6EE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BED02A1151E409B002F6EE5 /* BetterNSFileManagerTests.h */ = {isa = PBXFileReference; path = BetterNSFileManagerTests.h; sourceTree = "<group>"; };
+		5BED02A2151E409B002F6EE5 /* BetterNSFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterNSFileManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BED027D151E409B002F6EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED0284151E409B002F6EE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BED0290151E409B002F6EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED0296151E409B002F6EE5 /* SenTestingKit.framework in Frameworks */,
+				5BED0297151E409B002F6EE5 /* Cocoa.framework in Frameworks */,
+				5BED029A151E409B002F6EE5 /* libBetterNSFileManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BED0275151E409B002F6EE5 = {
+			isa = PBXGroup;
+			children = (
+				5BED0289151E409B002F6EE5 /* BetterNSFileManager */,
+				5BED029B151E409B002F6EE5 /* BetterNSFileManagerTests */,
+				5BED0282151E409B002F6EE5 /* Frameworks */,
+				5BED0281151E409B002F6EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BED0281151E409B002F6EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BED0280151E409B002F6EE5 /* libBetterNSFileManager.a */,
+				5BED0294151E409B002F6EE5 /* BetterNSFileManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BED0282151E409B002F6EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BED0283151E409B002F6EE5 /* Cocoa.framework */,
+				5BED0295151E409B002F6EE5 /* SenTestingKit.framework */,
+				5BED0285151E409B002F6EE5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BED0285151E409B002F6EE5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BED0286151E409B002F6EE5 /* AppKit.framework */,
+				5BED0287151E409B002F6EE5 /* CoreData.framework */,
+				5BED0288151E409B002F6EE5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BED0289151E409B002F6EE5 /* BetterNSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				5BED028C151E409B002F6EE5 /* BetterNSFileManager.h */,
+				5BED028D151E409B002F6EE5 /* BetterNSFileManager.m */,
+				5BED028A151E409B002F6EE5 /* Supporting Files */,
+			);
+			path = BetterNSFileManager;
+			sourceTree = "<group>";
+		};
+		5BED028A151E409B002F6EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BED028B151E409B002F6EE5 /* BetterNSFileManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BED029B151E409B002F6EE5 /* BetterNSFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BED02A1151E409B002F6EE5 /* BetterNSFileManagerTests.h */,
+				5BED02A2151E409B002F6EE5 /* BetterNSFileManagerTests.m */,
+				5BED029C151E409B002F6EE5 /* Supporting Files */,
+			);
+			path = BetterNSFileManagerTests;
+			sourceTree = "<group>";
+		};
+		5BED029C151E409B002F6EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BED029D151E409B002F6EE5 /* BetterNSFileManagerTests-Info.plist */,
+				5BED029E151E409B002F6EE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BED027E151E409B002F6EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BED027F151E409B002F6EE5 /* BetterNSFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BED02A6151E409B002F6EE5 /* Build configuration list for PBXNativeTarget "BetterNSFileManager" */;
+			buildPhases = (
+				5BED027C151E409B002F6EE5 /* Sources */,
+				5BED027D151E409B002F6EE5 /* Frameworks */,
+				5BED027E151E409B002F6EE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterNSFileManager;
+			productName = BetterNSFileManager;
+			productReference = 5BED0280151E409B002F6EE5 /* libBetterNSFileManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5BED0293151E409B002F6EE5 /* BetterNSFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BED02A9151E409B002F6EE5 /* Build configuration list for PBXNativeTarget "BetterNSFileManagerTests" */;
+			buildPhases = (
+				5BED028F151E409B002F6EE5 /* Sources */,
+				5BED0290151E409B002F6EE5 /* Frameworks */,
+				5BED0291151E409B002F6EE5 /* Resources */,
+				5BED0292151E409B002F6EE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BED0299151E409B002F6EE5 /* PBXTargetDependency */,
+			);
+			name = BetterNSFileManagerTests;
+			productName = BetterNSFileManagerTests;
+			productReference = 5BED0294151E409B002F6EE5 /* BetterNSFileManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BED0277151E409B002F6EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5BED027A151E409B002F6EE5 /* Build configuration list for PBXProject "BetterNSFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BED0275151E409B002F6EE5;
+			productRefGroup = 5BED0281151E409B002F6EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BED027F151E409B002F6EE5 /* BetterNSFileManager */,
+				5BED0293151E409B002F6EE5 /* BetterNSFileManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BED0291151E409B002F6EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED02A0151E409B002F6EE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BED0292151E409B002F6EE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BED027C151E409B002F6EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED028E151E409B002F6EE5 /* BetterNSFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BED028F151E409B002F6EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED02A3151E409B002F6EE5 /* BetterNSFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BED0299151E409B002F6EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BED027F151E409B002F6EE5 /* BetterNSFileManager */;
+			targetProxy = 5BED0298151E409B002F6EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BED029E151E409B002F6EE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BED029F151E409B002F6EE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BED02A4151E409B002F6EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BED02A5151E409B002F6EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BED02A7151E409B002F6EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BED02A8151E409B002F6EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BED02AA151E409B002F6EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				INFOPLIST_FILE = "BetterNSFileManagerTests/BetterNSFileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BED02AB151E409B002F6EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				INFOPLIST_FILE = "BetterNSFileManagerTests/BetterNSFileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BED027A151E409B002F6EE5 /* Build configuration list for PBXProject "BetterNSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED02A4151E409B002F6EE5 /* Debug */,
+				5BED02A5151E409B002F6EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BED02A6151E409B002F6EE5 /* Build configuration list for PBXNativeTarget "BetterNSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED02A7151E409B002F6EE5 /* Debug */,
+				5BED02A8151E409B002F6EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BED02A9151E409B002F6EE5 /* Build configuration list for PBXNativeTarget "BetterNSFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED02AA151E409B002F6EE5 /* Debug */,
+				5BED02AB151E409B002F6EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BED0277151E409B002F6EE5 /* Project object */;
+}
