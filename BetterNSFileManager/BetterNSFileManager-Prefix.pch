@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'BetterNSFileManager' target in the 'BetterNSFileManager' project
-//
-
-#ifdef __OBJC__
-	#import <Cocoa/Cocoa.h>
-#endif
