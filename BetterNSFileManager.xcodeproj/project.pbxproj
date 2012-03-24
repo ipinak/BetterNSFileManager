@@ -341,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				GCC_PREFIX_HEADER = BetterNSFileManager/BetterNSFileManager_Prefix.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,7 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BetterNSFileManager/BetterNSFileManager-Prefix.pch";
+				GCC_PREFIX_HEADER = BetterNSFileManager/BetterNSFileManager_Prefix.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
