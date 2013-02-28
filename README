@@ -1,0 +1,10 @@
+Simple file manager functions that are used quite extensively by 
+every Apple device developer.
+
+It's easy to use, just follow the steps below
+1. First download the library (either by cloning git or by downloading the
+standalone zip)
+2. Add the file on your project.
+3. Check the existence of the .m files in the section "Build Phases" -> 
+"Compile Sources". If they don't exist, add them, otherwise you will have 
+problems upon execution.
